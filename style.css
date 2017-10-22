@@ -1,0 +1,111 @@
+body {
+  background-image: url(../images/pinkmountain.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  max-width: 1200px;
+  height: 1400px;
+  margin: 0 auto;
+  margin-top: 60px;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: 'Poiret One', cursive;
+}
+
+/* LEFT SIDE OF PAGE*/
+/*Need to afix #left to scroll and stop (sticky?)*/
+
+#left-one, #left-two, #left-three {
+  width: 300px;
+  clear: both;
+  position: fixed;
+  margin-left: 60px;
+  border-radius: 15px;
+  border: 2px solid white;
+  color: white;
+  text-align: center;
+}
+
+#left-one {
+  background-color: #CD655F;
+}
+
+.shelbyphoto {
+  width: 240px;
+  border: 2px solid white;
+  border-radius: 15px;
+  margin: 30px 30px 0px 30px;
+}
+
+#left-one > h1 {
+  color: white;
+  text-align: center;
+  margin-top: 5px;
+  font-size: 30px;
+}
+
+#left-one > p {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  margin-top: -15px;
+}
+
+#left-two {
+    background-color: #DC7B74;
+    margin-top: 410px;
+    font-size: 20px;
+}
+
+#left-two > div {
+  display: inline-block;
+  padding-bottom: 20px;
+}
+
+#left-two a{
+  list-style: none;
+  color: white;
+  text-decoration: none;
+}
+
+#left-three {
+  background-color: #ED968F;
+  margin-top: 590px;
+}
+
+#left-three li {
+  text-align: left;
+  text-indent: 10px;
+}
+
+
+
+/* RIGHT SIDE OF PAGE */
+#portfolio-text {
+  font-family: "Pacifico", cursive;
+  color: white;
+  font-size: 80px;
+  margin-left: 660px;
+  font-weight: bold;
+}
+
+#portfolio {
+  width: 700px;
+  clear: both;
+  padding: 20px;
+  background-color: #F7D6D4;
+  margin: 20px 60px 100px 470px;
+  border: 2px solid white;
+  border-radius: 15px;
+  position: absolute;
+}
+
+hr {
+  height: 5px;
+  border: 0;
+  border-top: 1px solid #DC7B74;
+  margin-top: 30px;
+}
