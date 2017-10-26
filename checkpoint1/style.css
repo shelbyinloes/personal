@@ -1,0 +1,49 @@
+body {
+  max-width: 2000px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px;
+  box-sizing: border-box;
+}
+
+#header {
+  width: 100%;
+}
+
+.banner {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#learn-more {
+  font-size: 20px;
+  align-self: flex-end;
+}
+
+.banner  img {
+  width: 50px;
+  height: 50px;
+  padding-right: 15px;
+}
+
+#navigation {
+  background-color: #FD1219;
+  display: flex;
+  width: 1200px;
+  margin-bottom: 5px;
+}
+
+#navigation > img {
+  padding: 20px 40px;
+}
+
+#photo {
+  background-image: url("images/ladder-background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 1200px;
+  height: 500px;
+  filter: opacity(85%);
+}
