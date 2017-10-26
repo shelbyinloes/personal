@@ -1,49 +1,65 @@
 body {
-  max-width: 2000px;
-  margin: 0 auto;
+  width: 1200px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 50px;
+  justify-content: center;
+  margin: 10px auto;
   box-sizing: border-box;
+  font-family: 'Ubuntu', sans-serif;
 }
 
-#header {
-  width: 100%;
+.container {
+  width: 0 auto;
+  display: flex;
+  flex-direction: row;
+  width: 1200px;
 }
 
-.banner {
+#social {
   display: flex;
   justify-content: flex-end;
 }
 
-#learn-more {
+#social a {
+  text-decoration: none;
+  color: #02689A;
   font-size: 20px;
-  align-self: flex-end;
+  float: left;
 }
 
-.banner  img {
+#social img {
   width: 50px;
   height: 50px;
-  padding-right: 15px;
+  justify-content: space-around;
+  margin: 10px;
 }
 
 #navigation {
-  background-color: #FD1219;
-  display: flex;
-  width: 1200px;
-  margin-bottom: 5px;
+  background-color: #FD0000;
+  justify-content: space-around;
+  align-items: center;
 }
 
-#navigation > img {
-  padding: 20px 40px;
+#navigation a {
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+  text-transform: uppercase;
 }
 
-#photo {
-  background-image: url("images/ladder-background.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
+#navigation a:hover {
+  color: #56C7CC;
+}
+
+.logo {
+  padding: 10px;
+}
+
+#banner {
+  background-image: url("images/ladder.jpg");
   width: 1200px;
   height: 500px;
-  filter: opacity(85%);
+  background-size: cover;
+  filter: opacity(90%);
+  align-items: center;
+  justify-content: center;
 }
