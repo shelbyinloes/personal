@@ -63,3 +63,13 @@ body {
   align-items: center;
   justify-content: center;
 }
+
+.title-bar h1{
+  background-color: #FD0000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  height: 50px;
+  font-size: 30px;
+}
