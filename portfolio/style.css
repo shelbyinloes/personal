@@ -103,6 +103,12 @@ body {
   position: absolute;
 }
 
+#portfolio a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
 hr {
   height: 5px;
   border: 0;
