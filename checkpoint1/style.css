@@ -3,6 +3,7 @@ body {
   display: flex;
   justify-content: center;
   margin: 10px auto;
+  margin-bottom: 100px;
   box-sizing: border-box;
   font-family: 'Ubuntu', sans-serif;
 }
@@ -31,6 +32,10 @@ body {
   height: 50px;
   justify-content: space-around;
   margin: 10px;
+}
+
+#social h5 {
+  align-self: flex-start;
 }
 
 #navigation {
@@ -64,12 +69,62 @@ body {
   justify-content: center;
 }
 
-.title-bar h1{
-  background-color: #FD0000;
+#main {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  height: 50px;
+  flex-direction: column;
+}
+
+.container .title-bar {
+  background-color: red;
+  text-align: center;
+}
+
+h1 {
   font-size: 30px;
+  margin: 8px;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+p {
+  text-align: center;
+}
+
+
+/*MEDIA QUERIES*/
+@media (max-width: 1200px) {
+  body {
+    width: auto;
+  }
+
+  .container {
+    width: 900px;
+  }
+
+  #banner {
+    width: 900px;
+    height: 400px;
+  }
+}
+
+@media (max-width: 900px) {
+  .container {
+    width: 400px;
+    flex-direction: column;
+  }
+
+  #social {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  #social h5 {
+    display: none;
+  }
+
+  #banner {
+    width: 400px;
+    height: 200px;
+  }
 }
