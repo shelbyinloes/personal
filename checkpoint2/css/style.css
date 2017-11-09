@@ -42,3 +42,12 @@ body{
   display: flex;
   justify-content: center;
 }
+
+p {
+  color: white;
+  font-weight: 200;
+}
+
+h4 {
+  padding: 5px;
+}
