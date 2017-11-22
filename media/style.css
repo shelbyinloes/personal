@@ -1,0 +1,54 @@
+#container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+#left {
+  width: 250px;
+  float: left;
+  background: lightyellow;
+}
+
+#right {
+  width: 350px;
+  float: left;
+  background: lightblue;
+}
+
+
+/*Media Queries*/
+@media screen and (max-width: 599px) {
+  #container {
+    width: 100%;
+  }
+
+  #banner > img {
+    width: 100%;
+  }
+
+  #left {
+    width: 40%;
+  }
+
+  #right {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  #container {
+    width: 100%;
+  }
+
+  #banner > img {
+    width: 100%;
+  }
+
+  #left {
+    width: 100%;
+  }
+
+  #right {
+    width: 100%;
+  }
+}

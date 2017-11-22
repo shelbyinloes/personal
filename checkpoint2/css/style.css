@@ -1,0 +1,75 @@
+.first {
+  background: url(../images/cactus.jpg) no-repeat center center fixed;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: fixed;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  text-shadow: 2px 5px 10px #2F2430;
+}
+
+header {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  font-size: 8vw;
+}
+
+h2 {
+  font-size: 5vw;
+}
+
+.scroll {
+  font-size: 2vw;
+}
+
+.second {
+  position: absolute;
+  margin-top: 100% !important;
+  background-color: white;
+  width: 100%;
+  margin: auto;
+  padding-bottom: 50px;
+}
+
+.container-fluid {
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+.title {
+  font-family: 'Pacifico', cursive;
+  font-size: 50px;
+  color: #B73154;
+  padding: 10px;
+}
+
+.skill {
+  border: 2px solid pink;
+}
+
+.site {
+  padding: 10px;
+}
+
+.about {
+  border: 2px solid orange;
+}
+
+.hire {
+  border: 2px solid purple;
+}
+
+img {
+  width: 90%;
+}
